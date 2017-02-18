@@ -1,0 +1,67 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-image: linear-gradient(to top, rgb(0, 210, 255), rgb(58, 123, 213));
+}
+a, a:hover, a:focus{
+    color: #09f;
+}
+.container-fluid{
+    margin: 50px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.strong{font-weight: 700;}
+.progress{
+    height: 5px;
+}
+.progress-bar{
+    background-color: #09f;
+}
+.pills{
+    text-align: center !important;
+    margin-top: 10px;
+}
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+.media .pull-left {
+    width: 25px;
+}
+.small, small{
+    font-size: 90%;
+}
+#resume{
+    padding: 5px;
+}
+footer{
+    margin: 10px;
+}
+p, ul, h5 {
+    color: #323c4a;
+}
+.nav-pills > li {
+    float: none;
+}
+.center-pills {
+    display: block;
+}
+.nav > li {
+    display: inline-block;
+}
+.darker{
+    color: #444;
+}
+.light {
+    color: #aaa;
+}
+.text-blue {
+    color: #09f;
+}
+.btn-blue {
+    background-color: #09f;/*#b51425*/
+    color: #ffffff;
+}
+.btn-blue:hover {
+    color: #ffffff;
+}
