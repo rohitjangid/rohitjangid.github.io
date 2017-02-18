@@ -1,3 +1,4 @@
+
 body{
     font-family: 'PT Sans', sans-serif;
     background-image: linear-gradient(to top, rgb(0, 210, 255), rgb(58, 123, 213));
@@ -9,6 +10,11 @@ a, a:hover, a:focus{
     margin: 50px;
     background-color: #FFFFFF;
     border-radius: 5px;
+}
+@media screen and (max-width: 500px) {
+    .container-fluid {
+        margin: 0px;
+    }
 }
 .strong{font-weight: 700;}
 .progress{
